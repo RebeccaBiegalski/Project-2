@@ -1,0 +1,49 @@
+.background    { background-image: url("image/background.png");
+                 background-size: 2000px 1000px;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.water         { background-image: url("image/water.gif");
+                 background-size: 70px 70px; }
+.wall          { background: navy; }
+.floater       { background-image: url("image/star.gif");
+                  background-size: 22px 19px; }
+.swim          { background: #2464cc; }
+.alien         { background-image: url("image/alien.gif");
+                  background-size: 25px 27px;}
+.school        { background: #e25e00; }
+.block         { background: #404040; }
+
+.actor  { position: absolute;}
+.coin   { background-image: url("image/coin.gif");
+          background-size: 12px 16px;}
+.player { background-image: url("image/player.gif");
+          background-size: 30px 30px;}
+.dog  { background-image: url("image/dog.gif");
+          background-size: 22px 21px; }
+.cat { background-image: url("image/cat.gif");
+          background-size: 20px 20px; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url("image/dead.gif");
+  background-size: 30px 30px;
+}
+.won .player {
+  background-image: url("image/win.gif");
+  background-size: 30px 30px;
+}
+
+.color .player {
+  background-image: url("image/pug.gif");
+  background-size: 34px 32px;}
+
+.colors .player {
+  background-image: url("image/player.gif");
+  background-size: 30px 30px;}
